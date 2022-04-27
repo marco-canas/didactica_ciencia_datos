@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{amssymb, amsmath, amsfonts, latexsym}
+\usepackage[total={18cm, 25cm}, centering]{geometry}
+ \usepackage{graphicx} % figuras
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\begin{document}
+\textbf{Autovectores algunos problemas de optimización}
+Un problema frecuente en Machine Learning es el de optimizar $\overline{x} ^{T}A\overline{x} $ donde $\overline{x}$ es unitario y $A _{d\times d} $ es simétrica. Ese tipo de problemas surgen en ejercicios de reducción de dimensionalidad e ingeniería de atributos.
+
+\begin{equation*}
+\begin{aligned}
+& \underset{\overline{x} }{\text{Optimize}}
+& & \overline{x} ^{T}A \overline{x}    \\
+& \text{sujeto a}
+& & \| \overline{x}\| ^{ 2} = 1
+\end{aligned}
+\end{equation*}
+Sean $\overline{v} _{ 1}  \ldots \overline{v} _{ d} $ una base ortonormal de autovectores para la matriz simétrica $A _{d\times d} $, así que cualquier $\overline{x}$ puede expresarse como $$\overline{x} = \displaystyle \sum _{ i=1} ^{ d} \alpha _{ i} \overline{v} _{ i}   $$
+
+Reformulando el problema de optimización en términos de los parámetros $\alpha$'s, se tiene:
+\begin{equation*}
+\begin{aligned}
+& \underset{\alpha _{ 1} \ldots \alpha _{ d}  }{\text{Optimize}}
+& & \displaystyle \sum _{ i=1} ^{d} \lambda _{ i} \alpha _{ i} ^{ 2}       \\
+& \text{sujeto a}
+& & \sum _{ i=1} ^{d}  \alpha _{ i} ^{ 2}=1
+\end{aligned}
+\end{equation*}
+
+El máximo es el mayor de los autovalores y se tiene al tomar el correspondiente $\alpha$ igual a $1$ (los demás, cero).
+El mínimo es el menor de los autovalores y se tiene al tomar el correspondiente $\alpha$ igual a $1$ (los demás, cero).  \\
+
+Al volver al problema original, el máximo es obtenido al tomar $\overline{x}$ como el autovector asociado al mayor autovalor. (Análoga síntesis se recupera para el problema de minimización).\\
+
+El problema se puede generalizar.
+
+\begin{equation*}
+\begin{aligned}
+& \underset{\overline{x} _{ 1} \ldots \overline{x} _{ d}  }{\text{Optimize}}
+& & \displaystyle \sum _{i=1} ^{ k}   \overline{x} _{ i}  ^{T}A \overline{x} _{ i}     \\
+& \text{sujeto a}
+& & \| \overline{x} _{ i} \| ^{ 2} = 1 \ \ \forall i \in \{1 \ldots k\} \\
+& & \overline{x} _{ 1} \ldots \overline{x} _{k } \ \text{mutuamente ortogonales}
+\end{aligned}
+\end{equation*}
+
+En cuya caso el máximo se alcanza al tomar los autovectores asociados a los $k$ autovalores mayores.\\ 
+
+\end{document}

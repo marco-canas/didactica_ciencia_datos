@@ -1,0 +1,41 @@
+
+\documentclass{article}
+\usepackage{amssymb, amsmath, amsfonts, latexsym}
+\usepackage[total={18cm, 25cm}, centering]{geometry}
+ \usepackage{graphicx} % figuras
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+%\usepackage{cancel}
+
+
+\begin{document}
+Algunas veces se quiere factorizar una matriz imponiendo condiciones sobre los factores. Una condición habitual es
+la de factores no negativos y dado que los vectores no negativos no constituyen un espacio vectorial, entonces no se
+pueden aplicar los principios del álgebra lineal. Es allí donde la perspectiva de la optimización es importante y permite
+crear síntesis como:\\
+El SVD truncado prevee la mejor aproximación en términos de error cuadrático en el contexto de las matrices de rango $k$.\\
+Aunque el problema de factorización se enfrenta como un problema de optimización, se verá que una de las soluciones óptimas
+involucra factores cuyas columnas presentan el fenómenos de ortogonalidad.\\
+
+\textbf{Formulación}
+Si las columnas de $V$ tienen la cualidad de ortonormalidad, entonces la representación reducidad de los datos $D$ es
+obtenda como $U=DV$. El problema de optimización se formula, tratando de maximizar la energía de $U=DV$.\\
+
+\begin{equation*}
+\begin{aligned}
+& \underset{V _{d\times k} }{\text{minimize}}
+& & \|DV\| _{F} ^{ 2}   \\
+& \text{sujeto a}
+& & V ^{T}V = I _{k }
+\end{aligned}
+\end{equation*}
+
+Si $\overline{V} _{r} $ es la r-ésima columna de $V$, note que
+$$\|DV\| _{F} ^{ 2} = \displaystyle \sum _{r=1} ^{ k}  \|D \overline{V} _{r}\| _{F} ^{ 2}
+= \sum _{r=1} ^{ k} \overline{V} _{r}^{T} D ^{T}D \overline{V} _{r}   $$
+
+\end{document}
