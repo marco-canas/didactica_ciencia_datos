@@ -1,0 +1,19 @@
+echo "Hola Mundo"
+
+md marco
+md camilo
+md clara 
+md daniela 
+md efimero
+
+copy nul albert_einstein.txt
+copy nul tesla.txt
+copy nul curie.txt 
+copy nul para_borrar.txt 
+
+
+cd efimero
+copy nul mercedes_sosa.txt
+copy nul piero.txt 
+cd ..
+type "el_breve_espacio.txt"

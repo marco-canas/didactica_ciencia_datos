@@ -1,0 +1,6 @@
+print('hola mundo. me llamo marco')
+print('me gusta la programación')
+print('me gustan las películas')
+print('estoy casado con Yasmira Barboza y la amo')
+print('me gusta la ciencia de datos')
+print('tengo tres hermanos')
