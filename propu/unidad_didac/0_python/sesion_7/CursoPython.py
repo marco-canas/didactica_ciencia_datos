@@ -119,18 +119,69 @@ con control 1 hacemos que el texto se vuelva un comentario
 
 # print('El total que se capitaliza continuamente es',round(A,2)) 
 
-import numpy as np 
+#%%
 
-print(np.sqrt(4))
+# import numpy as np 
 
-print(np.exp(1))
+# print(np.sqrt(4))
 
-import math as m 
+# print(np.exp(1))
 
-print(m.exp(1))
+# import math as m 
 
-# calcule el volumen de un cilindro
-r = 1
-h = 1
-v = np.pi*r**2*h
-print(v)
+# print(m.exp(1))
+
+# # calcule el volumen de un cilindro
+# r = 1
+# h = 1
+# v = np.pi*r**2*h
+# print(v)
+#%%
+
+# print('ilustracion de la instrucción dir')
+
+# print('ella permite saber las propiedades y métodos de una variable')
+#%%
+
+# nombre = 'Marco'
+
+# #print(dir(nombre)) 
+
+# nombre_nuevo = nombre.upper()
+# print(nombre_nuevo) 
+
+# nombre_nuevo = nombre.lower()
+# print(nombre_nuevo) 
+
+# nombre_nuevo = nombre.replace('M', 'N')
+# print(nombre_nuevo)
+
+# nombre_nuevo = nombre.count('c')
+# print(nombre_nuevo)
+
+# nombre_nuevo = nombre.startswith('N')
+# print(nombre_nuevo)
+
+#%%
+
+# help(pow)
+
+# print('varias formas de unir texto')
+# segundo_nombre = 'julio'
+# print(f'unimos Marco con {segundo_nombre}')
+# b = str(5)
+# print(b)
+
+#%%
+
+# c = 0.5
+
+# print(f'expresar en forma porcentual {c:0.2%}')
+
+# print(f'expresar en forma porcentual {c:,.2f}')
+
+#%%
+
+
+print(input('numero de puentes seguros: '))
+
