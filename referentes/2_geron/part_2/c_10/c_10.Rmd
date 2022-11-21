@@ -1,0 +1,24 @@
+---
+title: "capítulo 10 Geron Reconocimiento de imagenes"
+author: "Marco Julio Cañas"
+date: "2022-11-21"
+output: html_document
+---
+
+
+# Reconocimiento de Imagenes con fashion_mnist 
+
+## Metodología
+
+1. Obtener Datos
+2. Hacer un reconocimiento de los datos
+3. Exploración visual de los mismos 
+
+
+1. Obtener los datos
+
+```{r}
+3%%2
+```
+
+
