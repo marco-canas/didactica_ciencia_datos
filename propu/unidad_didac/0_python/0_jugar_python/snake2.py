@@ -1,3 +1,5 @@
+# 
+
 import turtle
 import time
 import random
@@ -37,7 +39,7 @@ comida.speed(0)
 comida.shape('circle')
 comida.penup() 
 comida.goto(0,100) 
-comida.color('red') 
+comida.color('yellow') 
 
 #segmentos / cuerpo
 segmentos = []
