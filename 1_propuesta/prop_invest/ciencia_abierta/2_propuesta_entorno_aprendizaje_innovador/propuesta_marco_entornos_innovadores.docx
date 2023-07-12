@@ -1,5 +1,10 @@
+
+Título:  Enseñar Machine Learning en la Universidad de Antioquia con un enfoque pedagógico de Aprendizaje Invertido soportado en Google Colab, GitHub y YouTube y utilizando el lenguaje de programación Python
+
+
+
 Resumen
-"Esta propuesta de enseñanza del machine learning con enfoque pedagógico de aprendizaje invertido se centra en la utilización del lenguaje de programación Python. Nuestro objetivo es proporcionar a los estudiantes una experiencia práctica y significativa en el campo del machine learning, combinando la teoría con la aplicación directa. A través de proyectos y actividades interactivas, los estudiantes aprenderán los conceptos fundamentales del machine learning y desarrollarán habilidades de programación en Python para implementar algoritmos de aprendizaje automático. Creemos que esta combinación de aprendizaje invertido y Python permitirá a los estudiantes adquirir una comprensión profunda y práctica del machine learning, preparándolos para enfrentar desafíos reales en el mundo de la inteligencia artificial." La secuencia metodológica seguida es 
+"Esta propuesta de enseñanza del Machine Learning con enfoque pedagógico de aprendizaje invertido se centra en la utilización del lenguaje de programación Python. Nuestro objetivo es proporcionar a los estudiantes una experiencia práctica y significativa en el campo del machine learning, combinando la teoría con la aplicación directa. A través de proyectos y actividades interactivas, los estudiantes aprenderán los conceptos fundamentales del machine learning y desarrollarán habilidades de programación en Python para implementar algoritmos de aprendizaje automático. Creemos que esta combinación de aprendizaje invertido y Python permitirá a los estudiantes adquirir una comprensión profunda y práctica del machine learning, preparándolos para enfrentar desafíos reales en el mundo de la inteligencia artificial." La secuencia metodológica seguida es 
 * Introducción a Python, 
 * estadística para ciencia de datos, 
 * regresión y
@@ -123,69 +128,4 @@ Mendoza Jurado, H. F. (2018).  Ciencia de datos una alternativa de análisis al 
 
 
 
-Contenido para 10 diapositivas:
 
-Diapositiva 1:
-- Título: Enseñar Machine Learning en la Universidad de Antioquia con Google Colab, GitHub y YouTube
-- Autores: Cañas Campillo, Marco Julio; Lopez Nohava, Luz Mariela
-- Institución: Universidad de Antioquia
-- Ubicación: Caucasia, Colombia
-
-Diapositiva 2:
-- Resumen de la ponencia:
-  - Enfoque pedagógico de aprendizaje invertido en la enseñanza del machine learning.
-  - Uso del lenguaje de programación Python.
-  - Combinación de teoría y aplicación práctica.
-  - Proyectos y actividades interactivas.
-  - Adquisición de habilidades de programación en Python para implementar algoritmos de machine learning.
-
-Diapositiva 3:
-- Secuencia metodológica:
-  - Introducción a Python.
-  - Estadística para ciencia de datos.
-  - Regresión.
-  - Clasificación.
-
-Diapositiva 4:
-- Resultados de la estrategia didáctica:
-  - Desarrollo de habilidades para obtener datasets asociados a problemas investigativos o empresariales.
-  - Constitución de modelos predictivos de machine learning para regresión o clasificación.
-  - Justificación de la configuración de los modelos.
-  - Presentación del proceso de construcción del modelo, interpretación de las predicciones y limitaciones/potencialidades.
-
-Diapositiva 5:
-- Acceso a los contenidos del curso:
-  - Repositorio en GitHub: https://github.com/marco-canas/7_didactica_ciencia_datos/tree/main/propuesta/unidad_didac.
-  - Utilización de cuadernos Jupyter interactivos en Google Colab.
-
-Diapositiva 6:
-- Uso de herramientas tecnológicas:
-  - Google Colab: plataforma para la enseñanza en línea.
-  - GitHub: repositorio de materiales y recursos del curso.
-  - YouTube: videos asociados a los cuadernos Jupyter para reforzar los temas tratados.
-
-Diapositiva 7:
-- Metodología:
-  1. Introducción a Python para ciencia de datos.
-  2. Estadística para ciencia de datos.
-  3. Modelos de regresión para variables numéricas continuas.
-  4. Modelos de clasificación para variables categóricas.
-
-Diapositiva 8:
-- Resultados de aprendizaje para los estudiantes:
-  - Obtención de datasets asociados a problemas investigativos o empresariales.
-  - Construcción de modelos predictivos de machine learning.
-  - Justificación de la configuración de los modelos.
-  - Presentación de los modelos y sus resultados.
-
-Diapositiva 9:
-- Enseñanza online:
-  - Cartilla diseñada para la enseñanza del Machine Learning en la Universidad de Antioquia.
-
-Diapositiva 10:
-- Conclusiones:
-  - El enfoque pedagógico de aprendizaje invertido es efectivo en la enseñanza del machine learning.
-  - Uso de herramientas tecnológicas como Google Colab, GitHub y YouTube.
-  - Resultados significativos en el desarrollo de habilidades y conocimientos en los estudiantes.
-
-Estas diapositivas proporcionan un resumen del contenido de la ponencia, incluyendo los autores, la introducción, la metodología, los resultados y las conclusiones
