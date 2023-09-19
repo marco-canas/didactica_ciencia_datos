@@ -12,8 +12,8 @@ from AMSC import resumen_estacion,resumen_estacion_andes,resumen_estacion_orient
 # 3. INFORMACIÓN DE ENTRADA
 
 # 3.1 Direcciones de entrada y salida
-path_in=r"/sysroot/home/marco/Documentos/investigacion/7_didactica_ciencia_datos/3_datasets/antioquia_mira_su_cielo/como_extraer_datos_sky/AMSC-master/Entrada/"# Carpeta de entrada
-path_out1=r"/sysroot/home/marco/Documentos/investigacion/7_didactica_ciencia_datos/3_datasets/antioquia_mira_su_cielo/como_extraer_datos_sky/AMSC-master/Salida/"#Carpeta de salida
+path_in=r"/home/marco/Documentos/investigacion/didactica_ciencia_datos/3_datasets/antioquia_mira_su_cielo/como_extraer_datos_sky/Entrada"# Carpeta de entrada
+path_out1=r"/home/marco/Documentos/investigacion/didactica_ciencia_datos/3_datasets/antioquia_mira_su_cielo/como_extraer_datos_sky/Salida"#Carpeta de salida
 # 3.2 Carpeta
 # 3.3 Vectores
 columnas=["Tiempo Sistema","Outside Temperature","Wind Speed","Wind Direction","Outside Humidity",
