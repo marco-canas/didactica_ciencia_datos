@@ -1,6 +1,6 @@
 digraph {
 	A [label="Operadorescomparación en Python"]
-	B [label=""]
+	B [label="El operador =="]
 	C [label=""]
 	D [label="Metodología STEAM"]
 	E [label=Algoritmos]
