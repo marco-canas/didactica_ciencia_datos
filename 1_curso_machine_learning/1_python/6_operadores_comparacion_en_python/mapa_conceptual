@@ -1,0 +1,22 @@
+digraph {
+	A [label="Operadorescomparación en Python"]
+	B [label=""]
+	C [label=""]
+	D [label="Metodología STEAM"]
+	E [label=Algoritmos]
+	F [label="Diagramas de Flujo"]
+	G [label="Micro:Bit"]
+	H [label=MakeCode]
+	I [label=Flowgorithm]
+	J [label="Conceptos Matemáticos"]
+	A -> B
+	B -> C
+	C -> D
+	D -> J
+	E -> F
+	F -> G
+	F -> H
+	G -> H
+	H -> I
+	I -> J
+}
