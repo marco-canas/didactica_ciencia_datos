@@ -1,5 +1,5 @@
 digraph {
-	A [label="Vectores de Soporte"]
+	A [label="Soft Margin Classification"]
 	B [label=""]
 	C [label=""]
 	D [label=""]
