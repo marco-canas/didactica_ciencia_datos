@@ -1,0 +1,21 @@
+digraph {
+	A [label="Dataset no separables linealmente"]
+	B [label=SVM]
+	C [label=""]
+	D [label=""]
+	E [label=""]
+	F [label=""]
+	G [label=""]
+	H [label=""]
+	I [label=""]
+	J [label=""]
+	A -> B
+	A -> C
+	C -> D
+	D -> J
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+	I -> J
+}
