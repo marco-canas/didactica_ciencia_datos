@@ -1,11 +1,7 @@
 digraph {
 	A [label="Clasificación binaria con SVM"]
 	B [label="The polynomial features method"]
-	C [label="The similarury features method"]
-	D [label=""]
-	E [label=""]
-	F [label=""]
+	C [label="The similarity features method"]
 	A -> B
-	A -> C
 	A -> C
 }
