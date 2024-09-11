@@ -1,0 +1,22 @@
+digraph {
+	A [label="pandas.sort_values() y pandas.sort_index()"]
+	B [label="pandas.sort_values()"]
+	C [label="Ordenar por una o más columnas"]
+	D [label="Parámetro by: columna(s)"]
+	E [label="Parámetro ascending: True/False"]
+	F [label="Parámetro inplace: True/False"]
+	G [label="Ordenamiento en el lugar"]
+	H [label="pandas.sort_index()"]
+	I [label="Ordenar por índice"]
+	J [label="Parámetro axis: 0 (filas) o 1 (columnas)"]
+	A -> B
+	B -> C
+	C -> D
+	C -> E
+	D -> E
+	E -> F
+	F -> G
+	A -> H
+	H -> I
+	I -> J
+}
