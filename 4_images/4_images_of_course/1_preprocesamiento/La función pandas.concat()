@@ -1,0 +1,21 @@
+digraph {
+	A [label="La función pandas.concat()"]
+	B [label="Combina DataFrames/Series"]
+	C [label="Parámetro axis: 0 o 1"]
+	D [label="Concatenación por filas (axis=0)"]
+	E [label="Concatenación por columnas (axis=1)"]
+	F [label="Parámetro join: inner/outer"]
+	G [label="Unión interna"]
+	H [label="Unión externa"]
+	I [label="Parámetro ignore_index"]
+	J [label="Parámetro keys"]
+	A -> B
+	B -> C
+	C -> D
+	C -> E
+	B -> F
+	F -> G
+	F -> H
+	B -> I
+	B -> J
+}
