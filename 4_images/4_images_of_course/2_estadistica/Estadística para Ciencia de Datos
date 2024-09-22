@@ -1,0 +1,25 @@
+digraph {
+	A [label="Estadística para Ciencia de Datos"]
+	B [label="Estadística Descriptiva"]
+	C [label="Visualización de Datos"]
+	D [label="Probabilidad Básica"]
+	E [label="Distribuciones Estadísticas"]
+	F [label="Inferencia Estadística"]
+	G [label="Regresión Lineal"]
+	H [label=ANOVA]
+	I [label="Regresión Logística"]
+	J [label="Series Temporales"]
+	K [label="Clustering y PCA"]
+	L [label="Machine Learning"]
+	A -> B
+	A -> C
+	B -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+	I -> J
+	J -> K
+	K -> L
+}
