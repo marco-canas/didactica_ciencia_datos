@@ -1,6 +1,0 @@
-digraph {
-	A [label="El algoritmo 
- ARIMA"]
-	B [label=""]
-	A -> B
-}
