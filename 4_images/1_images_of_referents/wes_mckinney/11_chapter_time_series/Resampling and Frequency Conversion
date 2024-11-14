@@ -1,9 +1,0 @@
-digraph {
-	A [label="Resampling and Frequency Conversion"]
-	B [label="Remuestreo descendente"]
-	C [label="Remuestreo ascendente"]
-	D [label=""]
-	A -> B
-	A -> C
-	C -> D
-}

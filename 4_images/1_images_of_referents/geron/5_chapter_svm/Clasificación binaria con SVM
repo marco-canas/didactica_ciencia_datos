@@ -1,7 +1,0 @@
-digraph {
-	A [label="Clasificación binaria con SVM"]
-	B [label="The polynomial features method"]
-	C [label="The similarity features method"]
-	A -> B
-	A -> C
-}
