@@ -1,0 +1,22 @@
+digraph {
+	A [label="date time data types"]
+	B [label="La librería datatime"]
+	C [label=""]
+	D [label=DataTime]
+	E [label=Date]
+	F [label=Time]
+	G [label="Librería Estándar de Python"]
+	H [label=""]
+	I [label=""]
+	J [label=""]
+	A -> B
+	B -> C
+	C -> D
+	D -> J
+	E -> F
+	F -> G
+	F -> H
+	G -> H
+	H -> I
+	I -> J
+}
