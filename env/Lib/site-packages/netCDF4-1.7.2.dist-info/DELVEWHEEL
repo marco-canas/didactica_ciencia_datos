@@ -1,0 +1,2 @@
+Version: 1.8.2
+Arguments: ['C:\\hostedtoolcache\\windows\\Python\\3.12.7\\x64\\Scripts\\delvewheel', 'repair', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-iibjnhq1\\cp312-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-iibjnhq1\\cp312-win_amd64\\built_wheel\\netCDF4-1.7.2-cp312-cp312-win_amd64.whl']
