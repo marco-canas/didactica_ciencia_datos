@@ -1,4 +1,0 @@
-numpy
-setuptools
-wheel
-git+https://github.com/NCAR/wrf-python.git
