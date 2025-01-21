@@ -1,0 +1,7 @@
+digraph {
+	A [label="Regresión Multilineal"]
+	B [label=""]
+	C [label=""]
+	D [label=""]
+	A -> B
+}
