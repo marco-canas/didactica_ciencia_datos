@@ -1,0 +1,57 @@
+digraph Clase_train_test_split {
+	bgcolor=lightgray nodesep=0.5 rankdir=LR
+	Clase [label=<<B>Explorando train_test_split</B><BR/>
+          <I>(Aprendizaje Basado en Problemas y Proyectos)</I>> fillcolor=gold fontsize=14 shape=ellipse style=filled]
+	subgraph cluster_objetivos {
+		color=navy fillcolor=lightblue label=Objetivos style=filled
+		O1 [label="Comprender parámetros
+de train_test_split"]
+		O2 [label="Crear visualizaciones
+interactivas"]
+		O3 [label="Aplicar en proyectos ML"]
+	}
+	subgraph cluster_contenidos {
+		color=darkgreen fillcolor="#98FB98" label=Contenidos style=filled
+		C1 [label="Parámetros:
+test_size, random_state
+shuffle, stratify"]
+		C2 [label="Herramientas:
+Jupyter, Matplotlib
+Ipywidgets"]
+		C3 [label="Casos prácticos:
+Iris, Diabetes"]
+	}
+	subgraph cluster_actividades {
+		color=darkred fillcolor="#FFB6C1" label=Actividades style=filled
+		A1 [label="Problema inicial:
+Reproducibilidad"]
+		A2 [label="Widget interactivo
+con parámetros"]
+		A3 [label="Animación
+de stratify"]
+	}
+	subgraph cluster_evaluacion {
+		color=purple fillcolor=lavender label="Evaluación" style=filled
+		E1 [label="Tarea: Experimentación
+guiada"]
+		E2 [label="Proyecto: Informe
+con visualizaciones"]
+		E3 [label="Retroalimentación:
+Revisión por pares"]
+	}
+	Clase -> cluster_objetivos
+	Clase -> cluster_contenidos
+	Clase -> cluster_actividades
+	Clase -> cluster_evaluacion
+	O1 -> C1
+	O2 -> C2
+	O3 -> C3
+	C1 -> A1
+	C2 -> A2
+	C3 -> A3
+	A1 -> E1
+	A2 -> E2
+	A3 -> E3
+	overlap=false
+	splines=true
+}
