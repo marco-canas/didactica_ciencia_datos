@@ -1,0 +1,15 @@
+digraph {
+	bgcolor="#f8f9fa" rankdir=TB
+	T [label="Título de la clase" fillcolor="#ff9999" shape=box style=filled]
+	O [label="Objetivo de aprendizaje" fillcolor="#66b3ff" shape=ellipse style=filled]
+	C [label="Contenido de la clase" fillcolor="#99ff99" shape=parallelogram style=filled]
+	A [label="Actividades de aprendizaje" fillcolor="#ffcc99" shape=diamond style=filled]
+	E [label="Ejercitación y fijación" fillcolor="#c2c2f0" shape=hexagon style=filled]
+	R [label="Retroalimentación" fillcolor="#ffb3e6" shape=octagon style=filled]
+	T -> O [color="#ff6666"]
+	O -> C [color="#66b3ff"]
+	C -> A [color="#99ff99"]
+	A -> E [color="#ffcc99"]
+	E -> R [color="#c2c2f0"]
+	R -> T [color="#ffb3e6" constraint=false]
+}

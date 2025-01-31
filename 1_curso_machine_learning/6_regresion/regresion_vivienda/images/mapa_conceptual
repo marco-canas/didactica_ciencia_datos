@@ -1,0 +1,22 @@
+digraph {
+	bgcolor="#f8f9fa" rankdir=TB
+	C [label="Correlación" fillcolor="#ff9999" shape=ellipse style=filled]
+	VB [label="Variable Binaria" fillcolor="#66b3ff" shape=box style=filled]
+	VC [label="Variable Continua" fillcolor="#66b3ff" shape=box style=filled]
+	PB [label="Correlación Punto Biserial" fillcolor="#99ff99" shape=parallelogram style=filled]
+	CB [label="Coeficiente de Biserialidad" fillcolor="#99ff99" shape=parallelogram style=filled]
+	D [label="Distribución de Datos" fillcolor="#ffcc99" shape=diamond style=filled]
+	V [label="Visualización" fillcolor="#c2c2f0" shape=hexagon style=filled]
+	A [label="Análisis Exploratorio" fillcolor="#ffb3e6" shape=octagon style=filled]
+	C -> VB [color="#ff6666"]
+	C -> VC [color="#66b3ff"]
+	VB -> PB [color="#99ff99"]
+	VB -> CB [color="#ffcc99"]
+	VC -> PB [color="#99ff99"]
+	VC -> CB [color="#ffcc99"]
+	PB -> A [color="#c2c2f0"]
+	CB -> A [color="#c2c2f0"]
+	A -> D [color="#ffb3e6"]
+	D -> V [color="#ff6666"]
+	V -> C [color="#66b3ff" constraint=false]
+}
