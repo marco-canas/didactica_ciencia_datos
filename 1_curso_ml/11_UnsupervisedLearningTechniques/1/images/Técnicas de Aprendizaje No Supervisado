@@ -1,0 +1,32 @@
+digraph UnsupervisedLearning {
+	rankdir=TB splines=true
+	main [label="Técnicas de Aprendizaje No Supervisado" color=lightblue fontcolor=black shape=ellipse style=filled]
+	intro [label="Introducción" color=lightgreen shape=box style=filled]
+	def [label="Definición y aplicaciones" color=lightyellow shape=box style=filled]
+	diff [label="Diferencias con el aprendizaje supervisado" color=lightyellow shape=box style=filled]
+	main -> intro
+	intro -> def
+	intro -> diff
+	clustering [label="Algoritmos de Clustering" color=orange shape=box style=filled]
+	kmeans [label="K-Means" color=pink shape=ellipse style=filled]
+	dbscan [label=DBSCAN color=pink shape=ellipse style=filled]
+	gmm [label="Modelos de mezcla Gaussiana" color=pink shape=ellipse style=filled]
+	main -> clustering
+	clustering -> kmeans
+	clustering -> dbscan
+	clustering -> gmm
+	anomalies [label="Detección de Anomalías" color=red shape=box style=filled]
+	concept [label="Introducción al concepto de anomalías" color=lightyellow shape=box style=filled]
+	methods [label="Uso de clustering y
+densidad para detectar anomalías" color=lightyellow shape=box style=filled]
+	main -> anomalies
+	anomalies -> concept
+	anomalies -> methods
+	visualization [label="Visualización y Animación" color=purple shape=box style=filled]
+	libs [label="Librerías:
+matplotlib, seaborn, plotly" color=lightyellow shape=box style=filled]
+	animation [label="Animación de resultados con matplotlib.animation" color=lightyellow shape=box style=filled]
+	main -> visualization
+	visualization -> libs
+	visualization -> animation
+}

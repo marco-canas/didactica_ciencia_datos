@@ -1,0 +1,7 @@
+digraph {
+	A [label="sns.pairplot()"]
+	B [label=""]
+	C [label=""]
+	D [label=""]
+	A -> B
+}

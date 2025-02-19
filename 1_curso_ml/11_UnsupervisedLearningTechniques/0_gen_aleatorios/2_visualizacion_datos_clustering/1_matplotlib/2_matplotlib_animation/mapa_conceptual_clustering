@@ -1,0 +1,28 @@
+// Mapa Conceptual: Visualización con Animaciones de Clustering
+digraph {
+	A [label="Visualización de Algoritmos de Clustering" color=lightblue shape=ellipse style=filled]
+	B [label="Introducción al Clustering" color=lightgray shape=box style="rounded,filled"]
+	C [label="Visualización con Animaciones" color=lightgray shape=box style="rounded,filled"]
+	D [label="Experimentación en Jupyter" color=lightgray shape=box style="rounded,filled"]
+	A -> B
+	A -> C
+	A -> D
+	B1 [label="Definición de clustering" color=lightyellow shape=ellipse]
+	B2 [label="Algoritmo K-means" color=lightyellow shape=ellipse]
+	B3 [label="Iteraciones y convergencia" color=lightyellow shape=ellipse]
+	B -> B1
+	B -> B2
+	B -> B3
+	C1 [label="Uso de matplotlib.animation" color=lightyellow shape=ellipse]
+	C2 [label="Funciones de usuario para personalización" color=lightyellow shape=ellipse]
+	C -> C1
+	C -> C2
+	D1 [label="Creación de datos sintéticos" color=lightyellow shape=ellipse]
+	D2 [label="Implementación paso a paso de K-means" color=lightyellow shape=ellipse]
+	D3 [label="Visualización iterativa con animaciones" color=lightyellow shape=ellipse]
+	D -> D1
+	D -> D2
+	D -> D3
+	B2 -> D2
+	C1 -> D3
+}

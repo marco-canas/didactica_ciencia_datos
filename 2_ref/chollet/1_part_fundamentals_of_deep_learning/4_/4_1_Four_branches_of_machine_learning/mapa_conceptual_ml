@@ -1,0 +1,32 @@
+digraph "Mapa Conceptual" {
+	rankdir=TB size="8,10"
+	node [fontname=Arial fontsize=12 style=filled]
+	Titulo [label="Título de la Clase
+\"Cuatro ramas del Machine Learning\"" color=lightblue shape=ellipse]
+	Objetivo [label="Objetivo de Aprendizaje:
+- Identificar las cuatro ramas
+- Implementar ejemplos en Python" color=lightgreen shape=box]
+	Contenido [label="Contenido de la Clase:
+- Aprendizaje Supervisado
+- Aprendizaje No Supervisado
+- Aprendizaje Auto-supervisado
+- Aprendizaje por Refuerzo" color=gold shape=folder]
+	Actividades [label="Actividades de Aprendizaje:
+- Exploración en Jupyter
+- Uso de funciones y visualizaciones
+- Creación de animaciones" color=lightpink shape=oval]
+	Tarea [label="Tarea:
+- Implementar ejemplos
+- Diseñar animaciones
+- Documentar en Jupyter" color=cyan shape=hexagon]
+	Retroalimentacion [label="Retroalimentación:
+- Análisis de resultados
+- Comparación entre ramas
+- Mejora de código" color=orange shape=parallelogram]
+	Titulo -> Objetivo [label=Define]
+	Titulo -> Contenido [label=Explica]
+	Contenido -> Actividades [label=Desarrolla]
+	Actividades -> Tarea [label=Inspira]
+	Tarea -> Retroalimentacion [label="Finaliza con"]
+	Retroalimentacion -> Objetivo [label="Cierra ciclo"]
+}

@@ -1,0 +1,41 @@
+digraph Machine_Learning {
+	nodesep=0.8 rankdir=TB splines=ortho
+	node [fontname=Helvetica shape=rectangle style=filled]
+	ML [label="Machine Learning" color=gold fontsize=20 shape=doubleoctagon]
+	SUP [label="Aprendizaje Supervisado" color=lightblue shape=parallelogram]
+	ML -> SUP
+	CLAS [label="Clasificación" color=skyblue shape=oval]
+	REGR [label="Regresión" color=cornflowerblue shape=oval]
+	SUP -> CLAS
+	SUP -> REGR
+	SVM [label=SVM color=salmon shape=diamond]
+	DT [label="Árboles de Decisión" color=salmon shape=diamond]
+	RL [label="Regresión Lineal" color=salmon shape=diamond]
+	RF [label="Random Forest" color=salmon shape=diamond]
+	CLAS -> SVM
+	CLAS -> DT
+	REGR -> RL
+	REGR -> RF
+	SPAM [label="Detección de Spam" color=moccasin shape=note]
+	PREC [label="Precios de Viviendas" color=moccasin shape=note]
+	SVM -> SPAM
+	RL -> PREC
+	UNS [label="Aprendizaje No Supervisado" color=lightgreen shape=parallelogram]
+	ML -> UNS
+	CLUST [label=Clustering color=palegreen shape=oval]
+	DIM [label="Reducción de Dimensionalidad" color=limegreen shape=oval]
+	UNS -> CLUST
+	UNS -> DIM
+	KMN [label="K-Means" color=salmon shape=diamond]
+	HCL [label="Clustering Jerárquico" color=salmon shape=diamond]
+	PCA [label=PCA color=salmon shape=diamond]
+	TSNE [label="t-SNE" color=salmon shape=diamond]
+	CLUST -> KMN
+	CLUST -> HCL
+	DIM -> PCA
+	DIM -> TSNE
+	SEG [label="Segmentación de Clientes" color=moccasin shape=note]
+	VIS [label="Visualización de Datos" color=moccasin shape=note]
+	KMN -> SEG
+	TSNE -> VIS
+}
